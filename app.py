@@ -13,7 +13,7 @@ gemini = genai.GenerativeModel("gemini-pro")
 
 @app.route('/')
 def home():
-    return render_template('Home.html')
+    return render_template('home.html')
 
 @app.route('/Predict')
 def prediction():
