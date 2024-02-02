@@ -17,7 +17,7 @@ def home():
 
 @app.route('/Predict')
 def prediction():
-    return render_template('Index.html')
+    return render_template('index.html')
 
 @app.route('/form', methods=["POST"])
 def brain():
