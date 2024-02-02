@@ -1,0 +1,5 @@
+flask
+google.generativeai
+joblib
+scikit-learn==1.2.2
+python-dotenv

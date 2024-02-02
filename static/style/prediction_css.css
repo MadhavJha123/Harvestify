@@ -1,0 +1,9 @@
+body {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    color: rgb(10, 9, 9);
+    font-family: Arial, sans-serif;
+  }

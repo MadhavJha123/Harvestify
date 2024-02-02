@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="{{url_for('static',filename='style/prediction_css.css')}}">
+  </head>
+  <body>
+    <h3>Best Crop Recommendation</h3><br>
+    <p>According to your soil nutrients, you should grow <b>{{prediction}}</b></p>
+    <br>
+    <p><b>Here are some tips for growing {{prediction}} effectively:</p></b>
+    <ul>
+      {% for tip in tips %}
+     <li style="color: white;">{{tip}}</li><br>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
