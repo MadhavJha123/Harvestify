@@ -60,4 +60,4 @@ def get_crop_tips(crop):
     return response.text
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=8000)
